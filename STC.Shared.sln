@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7DCF887D-19CA-407B-9B3B-FA71C3E2FF0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{267328D0-40C1-420C-A15F-C1AE0779E8CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{F3EDE701-AD72-4E68-B1D3-484CEC34E92A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STC.Shared.Utilities.Response", "src\Utilities\STC.Shared.Utilities.Response\STC.Shared.Utilities.Response.csproj", "{8D90AE83-2EA4-401E-BAF8-56C64A7F8FCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STC.Shared.Utilities.Pagination", "src\Utilities\STC.Shared.Utilities.Pagination\STC.Shared.Utilities.Pagination.csproj", "{F9897031-5A8F-4BDC-995D-32216484E81C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{267328D0-40C1-420C-A15F-C1AE0779E8CE} = {7DCF887D-19CA-407B-9B3B-FA71C3E2FF0B}
+		{F3EDE701-AD72-4E68-B1D3-484CEC34E92A} = {7DCF887D-19CA-407B-9B3B-FA71C3E2FF0B}
+		{8D90AE83-2EA4-401E-BAF8-56C64A7F8FCD} = {267328D0-40C1-420C-A15F-C1AE0779E8CE}
+		{F9897031-5A8F-4BDC-995D-32216484E81C} = {267328D0-40C1-420C-A15F-C1AE0779E8CE}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D90AE83-2EA4-401E-BAF8-56C64A7F8FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D90AE83-2EA4-401E-BAF8-56C64A7F8FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D90AE83-2EA4-401E-BAF8-56C64A7F8FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D90AE83-2EA4-401E-BAF8-56C64A7F8FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9897031-5A8F-4BDC-995D-32216484E81C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9897031-5A8F-4BDC-995D-32216484E81C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9897031-5A8F-4BDC-995D-32216484E81C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9897031-5A8F-4BDC-995D-32216484E81C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
