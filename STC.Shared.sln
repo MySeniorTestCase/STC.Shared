@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STC.Shared.Utilities.Respon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STC.Shared.Utilities.Pagination", "src\Utilities\STC.Shared.Utilities.Pagination\STC.Shared.Utilities.Pagination.csproj", "{F9897031-5A8F-4BDC-995D-32216484E81C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STC.Shared.Logger", "src\Utilities\STC.Shared.Logger\STC.Shared.Logger.csproj", "{3BFDFC08-14C9-42E3-88AF-73A2A5327B71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,7 @@ Global
 		{F3EDE701-AD72-4E68-B1D3-484CEC34E92A} = {7DCF887D-19CA-407B-9B3B-FA71C3E2FF0B}
 		{8D90AE83-2EA4-401E-BAF8-56C64A7F8FCD} = {267328D0-40C1-420C-A15F-C1AE0779E8CE}
 		{F9897031-5A8F-4BDC-995D-32216484E81C} = {267328D0-40C1-420C-A15F-C1AE0779E8CE}
+		{3BFDFC08-14C9-42E3-88AF-73A2A5327B71} = {267328D0-40C1-420C-A15F-C1AE0779E8CE}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8D90AE83-2EA4-401E-BAF8-56C64A7F8FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +33,9 @@ Global
 		{F9897031-5A8F-4BDC-995D-32216484E81C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9897031-5A8F-4BDC-995D-32216484E81C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9897031-5A8F-4BDC-995D-32216484E81C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BFDFC08-14C9-42E3-88AF-73A2A5327B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BFDFC08-14C9-42E3-88AF-73A2A5327B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BFDFC08-14C9-42E3-88AF-73A2A5327B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BFDFC08-14C9-42E3-88AF-73A2A5327B71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
