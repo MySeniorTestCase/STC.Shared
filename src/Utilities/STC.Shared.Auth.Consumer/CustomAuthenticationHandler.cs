@@ -24,7 +24,7 @@ public class CustomAuthenticationHandler(
 {
     protected override Task<AuthenticateResult> HandleAuthenticateAsync()
     {
-        if (base.Context.GetEndpoint()!.Metadata.GetMetadata<IAllowAnonymous>() is not null)
+        if (base.Context.GetEndpoint()?.Metadata.GetMetadata<IAllowAnonymous>() is not null)
             return Task.FromResult(AuthenticateResult.Success(ticket: new AuthenticationTicket(
                 principal: new ClaimsPrincipal(identities: []),
                 authenticationScheme: CustomAuthenticationOptions.DefaultScheme)));
