@@ -6,7 +6,7 @@ namespace STC.Shared.Utilities.Response.Concretes;
 
 public sealed class DataResponseBase<T> : ResponseBase, IDataResponse<T>
 {
-    private DataResponseBase()
+    public DataResponseBase()
     {
     }
 
