@@ -14,6 +14,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STC.Shared.Logger", "src\Ut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STC.Shared.JwtAuthentication", "src\Utilities\STC.Shared.JwtAuthentication\STC.Shared.JwtAuthentication.csproj", "{83732FAE-EE27-4192-A86C-F82C20C9CB59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STC.Shared.Contracts.Auth", "src\Contracts\STC.Shared.Contracts.Auth\STC.Shared.Contracts.Auth.csproj", "{C5D0C62A-F96F-41AC-BEB6-D010B40B2761}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STC.Shared.Auth.Consumer", "src\Utilities\STC.Shared.Auth.Consumer\STC.Shared.Auth.Consumer.csproj", "{BE20273D-303E-4127-8863-03856FD03EE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +30,8 @@ Global
 		{F9897031-5A8F-4BDC-995D-32216484E81C} = {267328D0-40C1-420C-A15F-C1AE0779E8CE}
 		{3BFDFC08-14C9-42E3-88AF-73A2A5327B71} = {267328D0-40C1-420C-A15F-C1AE0779E8CE}
 		{83732FAE-EE27-4192-A86C-F82C20C9CB59} = {267328D0-40C1-420C-A15F-C1AE0779E8CE}
+		{C5D0C62A-F96F-41AC-BEB6-D010B40B2761} = {F3EDE701-AD72-4E68-B1D3-484CEC34E92A}
+		{BE20273D-303E-4127-8863-03856FD03EE3} = {267328D0-40C1-420C-A15F-C1AE0779E8CE}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8D90AE83-2EA4-401E-BAF8-56C64A7F8FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +50,13 @@ Global
 		{83732FAE-EE27-4192-A86C-F82C20C9CB59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83732FAE-EE27-4192-A86C-F82C20C9CB59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83732FAE-EE27-4192-A86C-F82C20C9CB59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5D0C62A-F96F-41AC-BEB6-D010B40B2761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D0C62A-F96F-41AC-BEB6-D010B40B2761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D0C62A-F96F-41AC-BEB6-D010B40B2761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D0C62A-F96F-41AC-BEB6-D010B40B2761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE20273D-303E-4127-8863-03856FD03EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE20273D-303E-4127-8863-03856FD03EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE20273D-303E-4127-8863-03856FD03EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE20273D-303E-4127-8863-03856FD03EE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

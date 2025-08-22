@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <LangVersion>13</LangVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App"/>
+        
+      <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.3.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Metadata" Version="9.0.8" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Contracts\STC.Shared.Contracts.Auth\STC.Shared.Contracts.Auth.csproj" />
+    </ItemGroup>
+
+</Project>
